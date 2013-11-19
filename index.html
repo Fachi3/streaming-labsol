@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Streaming-labsol </title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="\log.png">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet"  href="bootstrap.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="bootstrap-responsive.css" media="screen">
+				
+
+
+
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+  	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js"></script>
+
+	 <script type="text/javascript">
+      window.___gcfg = {
+        lang: 'en-US'
+      };
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+</head>
+
+<body oncontextmenu="return false" onkeydown="return false" > 
+<div class="" ="cotainer">
+
+
+<div class="row-fuid" >
+
+	<!--cabezal imagen, nombre , radio-->
+	<div class="row-fuid">
+
+	<ul>
+
+			<li><a><img height="70" width="200" src="logo_cozcyt.jpg"></a></li>
+			<li><a>Streaming</a>
+			<br><font size=4 color="white">Divulgación Científica y Tecnológica  </font>
+			</a></li>
+		
+			<li> 
+ 				<a><img height="60" width="200" src="labsol_colores.png"></a>
+			 <br><audio controls  autoplay ><!-- controles y etiqieta del aradio -ip del servidor streaming -->
+					<source src="http://10.39.224.39:8000/audio.mp3" type="audio/mpeg" />
+					<source src="http://10.39.224.39:8000/audio.ogg" type="audio/ogg" />
+					<em>Sorry, your browser doesn't support HTML5 audio.</em>
+				</audio> 
+				
+			</li>
+		</ul>
+
+	</div>
+	</div>
+
+	<br>
+
+	<nav>
+		<ul>
+			<li><a href="http://www.cozcyt.gob.mx/site2/" target="blank">cozcyt</a></li>
+			<li><a href="http://www.labsol.org"  target="_blank" >labsol</a></li>  
+			<li><a href="#contacto">Horarios</a>
+				<ul id="horarios">
+					<li>10:00 am </li>
+					<li>11:00 am </li>
+					<li>12:00 am </li>
+					<li>13:00 pm </li>
+
+				</ul>
+
+			</li>		
+		</ul>
+	</nav>
+</div>
+	<br>
+	<section id="contenedor">	
+	
+	<article  id="video">
+
+		<video width="720" height="380"   controls  autoplay >
+
+				
+				  <source src="http://10.39.224.39:8000/video.mp4" type="video/mp4" />
+				  <source src="http://10.39.224.39:8000/video.ogv" type='video/ogg; codecs="theora, vorbis"' />
+				  <source src="http://10.39.224.39:8000/video.webm" type='video/webm; codecs="vp8, vorbis"' /> 
+				  <source src="http://10.39.224.39:8000/video.ogg" type='video/ogg; codecs="theora, vorbis" '/>
+
+
+				  <em>Sorry, your browser doesn't support HTML5 video.</em>
+		 </video>
+		 <div id="botones">
+		<!--inicio boton facebook -->
+			 <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.labsol.org/&amp;layout=button_count&amp;show_faces=true&amp;width=150&amp;action=like&amp;font=trebuchet+ms&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true">
+			 	
+			 </iframe> 
+	 	<!--fin boton facebook -->
+	 	<!--inicio boton g+ -->
+
+			<g:plusone>
+		 			 <link rel="canonical" href="http://www.labsol.org" />
+		 	</g:plusone>
+		<!--inicio boton g+ -->
+
+		 </div> 
+		
+	</article>
+	<article id="anuncio">
+           Síguenos  en twitter 
+      
+         <!--chat de twitter -->
+		<a class="twitter-timeline" href="https://twitter.com/EAlexisTapia" data-widget-id="395608592272732160">Tweets por @EAlexisTapia</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+		</article>
+	</section>
+	</div>
+
+	<footer>
+		<p>
+			Consejo Zacatecano de Ciencia, Tecnología e Innovación
+				<br>De la Juventud 504, Col. Barros Sierra
+					<br>C.P. 98090 Zacatecas, Zac.
+					<br>Tel. 921 2816 y 921 3018
+
+		</p>
+
+	</footer>
+
+</div>	
+
+</body>
+</html>
